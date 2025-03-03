@@ -84,14 +84,14 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## 📞 Kontak
 
-- Website: [https://ecorec.id](https://ecorec.id)
+- Website: [https://s.id/EcoRec](https://ecorec.id)
 - Email: [contact@ecorec.id](mailto:contact@ecorec.id)
 - Twitter: [@EcoRecID](https://twitter.com/EcoRecID)
 
 ## ✨ Tim Pengembang
 
-- [Nama Anda](https://github.com/username) - Pengembang Utama
-- [Kontributor Lain](https://github.com/username) - Role
+- [Alpinnnn] (https://github.com/Alpinnnn) - Pengembang Utama
+- VylanYoza - Desain Grafis
 
 ## 🙏 Terima Kasih Kepada
 
