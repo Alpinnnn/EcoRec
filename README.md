@@ -91,7 +91,7 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 ## ✨ Tim Pengembang
 
 - [Alpinnnn](https://github.com/Alpinnnn) - Pengembang Utama
-- VylanYoza - Desain Grafis
+- [VylanYoza22](https://github.com/VylanYoza22) - Desain Grafis
 
 ## 🙏 Terima Kasih Kepada
 
