@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 30% 98%;
+    --foreground: 20 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 30% 10%;
+
+    --primary: 122 55% 49%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 40% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 60 5% 96%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 60 67% 94%;
+    --accent-foreground: 20 30% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 5% 90%;
+    --input: 20 5% 90%;
+    --ring: 122 55% 49%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 30% 10%;
+    --foreground: 60 30% 98%;
+
+    --card: 20 30% 15%;
+    --card-foreground: 60 30% 98%;
+
+    --popover: 20 30% 15%;
+    --popover-foreground: 60 30% 98%;
+
+    --primary: 122 55% 49%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 40% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 20 20% 20%;
+    --muted-foreground: 60 10% 80%;
+
+    --accent: 20 20% 20%;
+    --accent-foreground: 60 30% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 20% 30%;
+    --input: 20 20% 30%;
+    --ring: 122 55% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom styles */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth scrolling */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
