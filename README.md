@@ -25,7 +25,7 @@ EcoRec adalah platform inovatif yang menghubungkan aksi nyata untuk lingkungan d
 
 1. Clone repositori ini
 \`\`\`bash
-git clone https://github.com/username/ecorec-landing-page.git
+git clone https://github.com/Alpinnnn/EcoRec.git
 \`\`\`
 
 2. Masuk ke direktori proyek
