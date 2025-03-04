@@ -8,6 +8,7 @@ import { Inter } from "next/font/google"
 import { Lenis as ReactLenis } from "@studio-freight/react-lenis"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ComingSoonModal } from "@/components/coming-soon-modal"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -51,6 +52,14 @@ export default function RootLayout({
           name="description"
           content="Platform yang menghubungkan aksi nyata untuk lingkungan dengan sistem reward digital yang menguntungkan."
         />
+        {/* Favicon */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/logo.png" color="#4CAF50" />
+        <meta name="msapplication-TileColor" content="#4CAF50" />
+        <meta name="theme-color" content="#4CAF50" />
       </head>
       <body className={inter.className}>
         <ReactLenis
@@ -61,6 +70,7 @@ export default function RootLayout({
           }}
         >
           {children}
+          <ComingSoonModal />
         </ReactLenis>
       </body>
     </html>
